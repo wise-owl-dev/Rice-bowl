@@ -8,12 +8,21 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
 
 main {
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 80px;
 }
 
 /* Navegación */
@@ -52,6 +61,7 @@ nav {
   position: absolute;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 /* Titulo cursiva */
@@ -164,4 +174,48 @@ nav {
   width: 100%;
   position: absolute;
   top: 630px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ensalada {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+
+.titulo-about {
+  position: absolute;
+  top: 120px;
+  left: 795px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.subtitulo-about {
+  position: absolute;
+  color: #6d70cb;
+  top: 150px;
+  left: 785px;
+  font-size: 20px;
+  font-family: allura;
+  font-size: 100px;
+}
+
+.descripcion-about {
+  position: absolute;
+  top: 260px;
+  left: 785px;
+  font-size: 12px;
+  color: #505e64;
+  width: 500px;
+}
+
+.segunda-seccion .view_ourMenu {
+  top: 450px;
+  left: 780px;
 }
