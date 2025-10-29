@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Navegación */
+.logo-img {
+  height: 80px;
+  width: 230px;
+}
+
+nav {
+  display: flex;
+  background-color: #dbecf3;
+  justify-content: center;
+  border-color: black;
+}
+
+.contenedor_nav {
+  margin-left: 70px;
+  display: flex;
+}
+
+.opt_nav {
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 35px;
+  color: #505e64;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* Primera Sección */
+
+.primera-seccion {
+  background-color: #dbecf3;
+  height: 630px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+/* Titulo cursiva */
+
+.titulo-rice {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  font-size: 220px;
+  color: #6d70cb;
+  font-family: allura;
+}
+
+/* Titulo bowl */
+
+.titulo-bowl {
+  position: absolute;
+  top: 255px;
+  left: 500px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #505e64;
+}
+
+/* Descripcion */
+.descripcion {
+  position: absolute;
+  top: 310px;
+  left: 300px;
+  font-size: 10px;
+  color: #505e64;
+}
+
+/* Boton */
+.btn {
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 15px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.view_ourMenu {
+  background-color: #b12229;
+  color: white;
+  top: 370px;
+  left: 300px;
+  font-size: 12px;
+}
+
+.countingCalories {
+  background-color: #6d70cb;
+  color: white;
+  left: 45%;
+  bottom: 5px;
+  font-size: 12px;
+  position: absolute;
+}
+
+/* Hierbabuena */
+.hierbaBuena {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 430px;
+  left: 50px;
+}
+
+/* Arroz */
+.plato_arroz {
+  height: 513px;
+  width: 513px;
+  position: absolute;
+  top: 0px;
+  right: 250px;
+}
+
+/* HierbaBuena2 */
+.hierbaBuena2 {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.pregunta {
+  position: absolute;
+  left: 650px;
+  bottom: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.fuego {
+  padding-right: 5px;
+}
+
+.flecha {
+  padding-left: 5px;
+}
+
+/*Segunda Sección */
+
+.segunda-seccion {
+  background-color: #ffffff;
+  height: 630px;
+  width: 100%;
+  position: absolute;
+  top: 630px;
+}
