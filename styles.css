@@ -54,14 +54,17 @@ nav {
 
 /* Primera Sección */
 
-.primera-seccion {
-  background-color: #dbecf3;
-  height: 630px;
+.seccion {
   width: 100%;
-  position: absolute;
+  height: 630px;
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.primera {
+  background-color: #dbecf3;
 }
 
 /* Titulo cursiva */
@@ -167,16 +170,8 @@ nav {
 }
 
 /*Segunda Sección */
-
-.segunda-seccion {
+.segunda {
   background-color: #ffffff;
-  height: 630px;
-  width: 100%;
-  position: absolute;
-  top: 630px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .ensalada {
@@ -215,7 +210,137 @@ nav {
   width: 500px;
 }
 
-.segunda-seccion .view_ourMenu {
+.segunda .view_ourMenu {
   top: 450px;
   left: 780px;
 }
+
+/* Tercera Sección */
+.tercera {
+  background-color: #5f60b3;
+}
+
+.titulo_ourMenu {
+  position: absolute;
+  top: 20px;
+  left: 46%;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.descripcion_ourMenu {
+  position: absolute;
+  top: 70px;
+  left: 35%;
+  font-size: 10px;
+  color: white;
+  width: 500px;
+  text-align: center;
+}
+
+.menudo {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 175px;
+  left: 15%;
+}
+
+.tercera .plato_arroz {
+  height: 345px;
+  width: 345px;
+  position: absolute;
+  top: 150px;
+  left: 40%;
+}
+
+.tercera .ensalada {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 67%;
+}
+
+.yoruHeading {
+  position: absolute;
+  bottom: 100px;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.primerHeading {
+  left: 45%;
+}
+
+.segundoHeading {
+  left: 20%;
+}
+
+.terceroHeading {
+  left: 72%;
+}
+
+.only {
+  position: absolute;
+  font-size: 22px;
+  color: white;
+  font-family: allura;
+  bottom: 60px;
+}
+
+.primerOnly {
+  left: 18%;
+}
+
+.segundoOnly {
+  left: 43%;
+}
+
+.tercerOnly {
+  left: 70%;
+}
+
+.precio {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  bottom: 50px;
+  font-weight: bold;
+}
+
+.precio1 {
+  left: 22%;
+}
+
+.precio2 {
+  left: 47%;
+}
+
+.precio3 {
+  left: 74%;
+}
+
+.buyNow {
+  position: absolute;
+  font-size: 12px;
+  color: white;
+  bottom: 30px;
+}
+
+.buyNow1 {
+  left: 22%;
+}
+
+.buyNow2 {
+  left: 47%;
+}
+
+.buyNow3 {
+  left: 74%;
+}
+
+/* Cuarta Sección */
